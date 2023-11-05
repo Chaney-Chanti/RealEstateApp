@@ -2,6 +2,17 @@
 Real Estate App
 ###
 
+###
+Dependencies
+###
+pip install flask
+pip install pandas
+pip install matplotlib
+pip install Pillow
+pip install customtkinter
+pip install TinyDb
+
+
 Analyzying a property (Specific)
 - Common expenses: Taxes, Insurance, Flood Insurance, Water, Sewer, Garbage, Gas, Electricity, HOA fees, Snow removal, Lawn care
 - Vacancy / Repairs, CapEx,
