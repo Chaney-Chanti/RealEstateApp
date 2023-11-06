@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from flask_restful import Api
 from flask_httpauth import HTTPBasicAuth
 import pandas as pd
-import SourceDataObj
 from tinydb import TinyDB, Query
 
 app = Flask(__name__)
@@ -48,8 +47,8 @@ def hello():
 
 @app.route('/getZHVI')
 def getZipCodeData():
-    zillow = SourceDataObj.Zillow()
-    print(zillow.data["ZHVI"])
+    # zillow = SourceDataObj.Zillow()
+    # print(zillow.data["ZHVI"])
     return 'Zillow Data'
 
 if(__name__ == '__main__'):
